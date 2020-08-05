@@ -17,7 +17,7 @@ ReactDOM.render(
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
       <Route component={Pagina404} />
-      {/* Será executado como padrão, ideal para página de 4040 */}
+      {/* Será executado como padrão, ideal para página de 404 */}
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
